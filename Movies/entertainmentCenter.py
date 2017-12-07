@@ -34,3 +34,9 @@ the_nightmare_before_christmas = media.Movie("The Nightmare Before Christmas",
 christmas_movies = [home_alone, the_grinch_who_stole_christmas, a_christmas_carol, polar_express, the_holiday, the_nightmare_before_christmas]
 
 fresh_tomatoes.open_movies_page(christmas_movies)
+
+#printing class variables
+#print(media.Movie.valid_ratings)
+#print(media.Movie.__doc__)
+#print(media.Movie.__name__)
+#print(media.Movie.__module__)
