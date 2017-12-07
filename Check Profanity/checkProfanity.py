@@ -10,8 +10,14 @@ def read_text():
 def check_profanity(contents):
   connection = urllib.urlopen("http://www.wdylike.appspot.com/?q="+contents)
   output = connection.read()
-  print(output)
-
   connection.close()
+
+  if "true" in output:
+    print("Profanity Alert!")
+  elif "false" in output:
+    print("This document has not curse words.")
+  else:
+    print("Could not scan the document properly")
+      
 
 read_text()
