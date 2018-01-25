@@ -1,0 +1,23 @@
+body {
+    background-color: lightslategray;
+    color:whitesmoke;
+}
+
+li {
+    display: inline;
+    float: left;
+    background-color: #dddddd;
+    color:orangered;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    color: orangered;
+}
+
+.active {
+    background-color: orangered;
+    color: #dddddd;
+}
